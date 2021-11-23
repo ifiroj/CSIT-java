@@ -1,0 +1,144 @@
+class 7
+STREAMS => sequence of Bytes
+
+1) convert data to streams
+string -> stream
+
+
+streams -> input, output
+
+PROGRAM -> FILE......outputstream
+
+FILE -> PROGRAM......inputstream
+
+
+what is serialization?
+- conversion of OBJECTS to STREAM.
+
+deserialization.....stream -> object
+
+
+
+OOS -> FOS -> FILE....writing....program to file
+
+FILE -> FIS -> OIS.....read.....file to program
+
+================
+
+
+
+class 6
+
+UI => User Interface
+
+swing library .... package
+awt -> Abstract Window Toolkit
+===============================
+
+MVC
+
+M = Model
+V = View
+C = Controller
+
+MODEL => DATA : x = 100, y = 200, text = "hello", width = 100, height = 50, color = red
+
+VIEW => renders to screen
+
+CONTROLLER => Event Handling Mechanism
+
+container......frame
+component.....button
+contentPane.......area in a container where components can be placed
+
+
+LayoutManagers
+
+
+
+===================================================================
+
+
+class 5
+===========================
+Thread States
+ready > start > run <> pause > dead
+
+
+
+
+class 4
+=======================
+exception handling....try, catch, finally, throw, throws
+
+
+class 3
+======================
+
+interfaces, scanner, package introduction
+
+
+
+
+class 1
+=================
+
+JAVA -> Object Oriented Language
+
+jdk -> bin......
+ Student.java -> compile -> Student.class
+
+ compile?
+ javac JAVA_FILE_NAME
+ javac Student.java........successful -> Student.class
+
+
+ run?
+ java CLASS_FILE_NAME
+ java Student
+ =====================================
+
+ .java -> compile -> .class (bytecode)
+ windows -> .exe
+ linux -> 
+ mac -> 
+
+platform independent.....write once run anywhere
+
+=========================================
+
+class A
+{
+
+}
+
+class B : A
+{
+
+}
+
+
+class D : B
+{
+
+}
+
+class C : D......multilevel.......OK
+{
+
+}
+
+class E : A,B,D......multiple......X
+{
+
+}
+
+MULTIPLE inheritance is not allowed in JAVA
+MULTILEVEL is OK
+
+this, super, overloading, overriding, constructor, static, final
+
+
+
+
+
