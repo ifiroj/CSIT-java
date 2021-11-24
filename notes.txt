@@ -138,7 +138,8 @@ MULTILEVEL is OK
 
 this, super, overloading, overriding, constructor, static, final
 
-
+# create .jar file :
+- jar cfm Abc.jar manifest.mft DrawTest.class DrawingArea.class
 
 
 
