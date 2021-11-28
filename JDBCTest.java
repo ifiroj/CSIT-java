@@ -60,7 +60,7 @@ public class JDBCTest
 		{
 			ps = con.prepareStatement("INSERT INTO records(name, address, email, roll_name) VALUES(?, ?, ?, ?)");
 
-			ps.setString(1, "John Cena");
+			ps.setString(1, "Sin Cara");
 			ps.setString(2, "New York");
 			ps.setString(3, "demo@email.com");
 			ps.setInt(4, 33);
